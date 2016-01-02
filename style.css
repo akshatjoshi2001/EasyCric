@@ -1,0 +1,107 @@
+/* Created With Love By Akshat Joshi */
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300);
+
+.tabs
+{       
+
+    background:rgb(0,0,0.9);
+    text-align:center;
+       
+    color:#fff;
+}
+.head{
+    font-size:80px;
+}
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+}
+.fullscreen,
+.content-a {
+    width:100%;
+    min-height:100%;
+}
+.not-fullscreen,
+.not-fullscreen .content-a,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+    height:100%;
+    overflow:hidden;
+}
+
+/* content centering styles */
+.content-a {
+    display:table;
+}
+.content-b {
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+    text-align:center;
+}
+body
+{
+   
+    min-height: 100%;
+
+    font-family:Raleway;
+    color:#fff;
+    background:url('http://fullhdwp.com/images/wallpapers/Lords-Cricket_Ground-wallpaper.jpg')center center fixed;
+    background-repeat: no-repeat;
+    text-align:center;
+    background-size:cover;
+}
+.header{
+    text-align:center;
+    width:100%;
+    
+}
+a,a:hover{
+    text-decoration:none;
+}
+.tabs
+{
+    color:#fff;
+    width:60%;
+    margin-left:25%;
+    font-size:30px;
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+.tabs2
+{
+    
+    margin-left:10%;
+    display:block;
+    text-align:center;
+    width:80%;
+    font-size:20px;
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+a,a:hover,a:focus{
+    color:white;
+    text-decoration: none;
+}
+.footer
+{
+    position:absolute;
+    bottom:10px;
+    padding:20px;
+    width:100%;
+    font-size:20px;
+    font-family: Arial;
+}
